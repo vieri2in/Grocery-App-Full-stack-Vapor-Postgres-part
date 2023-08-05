@@ -6,7 +6,7 @@ import JWT
 public func configure(_ app: Application) async throws {
   // uncomment to serve files from /Public folder
   // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
-//  app.databases.use(.postgres(hostname: "silly.db.elephantsql.com", username: "oxnwqunj", password: "DU_ZUBITxT75ULwXr9JOMorCRQO-LQc9", database: "oxnwqunj"), as: .psql)
+
   app.databases.use(.postgres(hostname: "localhost", username: "postgres", password: "", database: "grocerydb"), as: .psql)
   app.migrations.add(CreateUsersTableMigration())
   app.migrations.add(CreateGroceryCategoryTableMigration())
