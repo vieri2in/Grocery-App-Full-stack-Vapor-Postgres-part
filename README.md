@@ -1,5 +1,5 @@
 # Grocery-App-Full-stack-Vapor-Postgres-part
-**This project is the server of the Grocery-App-Full-stack-front-end-part while using PostgreSQL as a database. It has a dependency on the GroceryAppSharedDTO package. The project covers the following aspects.**
+**This project is the server of the Grocery-App-Full-stack-project while using PostgreSQL as a database. It has a dependency on the GroceryAppSharedDTO package. The project covers the following aspects.**
 
 1. Integrating Vapor with Postgres
 1. Creating Custom Swift Packages to Share Models
